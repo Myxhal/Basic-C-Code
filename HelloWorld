@@ -1,0 +1,27 @@
+using static System.Console;
+ 
+namespace ConsoleApp1
+{
+    class Program
+
+    {
+        // This class is our first class that outputs Hello World
+        
+        /* this is a paragraph
+         * that i am writing
+         * that is so cool
+         */
+        static void Main(string[] args)
+        {
+            double myAge; 
+            myAge = 750000;
+            string conversion;
+            conversion = myAge.ToString("C");
+            System.Console.WriteLine("My age is : {0}. I am thankful to be alive", conversion);
+            
+            ReadLine();
+
+
+        } // This is the end of Main method
+    }
+}
