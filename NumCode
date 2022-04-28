@@ -1,0 +1,28 @@
+using System;
+
+namespace ConsoleApp2
+{
+    class Program
+    {
+        static void Main(string[] args)
+        {
+            int num1 = -500;
+            int num = 50;
+
+            decimal result;
+
+            result = num1 / num;
+
+          //  result = result + 1;
+            result--;
+
+            //    result++;
+            bool frog = true;
+            
+
+            System.Console.WriteLine(frog);
+            System.Console.ReadLine();
+
+        }
+    }
+}
